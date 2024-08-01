@@ -96,6 +96,38 @@ form button{
 form button:hover{
     background: #c40812;
 }
+form .btn{
+    width: 100%;
+    padding: 16px 0;
+    font-size: 1rem;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: #fff;
+    font-weight: 500;
+    border-radius: 4px;
+    background:grey;
+    margin: 25px 0 10px;
+    transition:0.1s ease;   
+}
+form .btn:hover{
+    background:gray;
+}
+form .or p{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+}
+form .forgot{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    
+}
+.forgot p{
+    color: #fff;
+}
 form .form-help{
     display: flex;
     justify-content: space-between;
@@ -137,7 +169,7 @@ form .form-help :where(label, a){
         width: 140px;
     }
     .form-wrapper{
-        top: 43%;
+        top: 50%;
         width: 100%;
     }
     .form-wrapper form{
