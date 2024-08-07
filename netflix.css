@@ -33,7 +33,8 @@ nav a img{
     top: 60%;
     left: 50%;
     width: 430px;
-    padding: 60px;
+    padding: 40px;
+    margin-top: 30px;
     border-radius: 4px;
     background: rgba(0,0,0,0.75);
     transform: translate(-50%, -50%);
@@ -44,7 +45,7 @@ nav a img{
     font-size: 2rem;
 }
 .form-wrapper form{
-    margin: 25px 0 65px;
+    margin: 25px 0 15px;
 }
 form .form-control{
     position: relative;
@@ -157,6 +158,13 @@ form .form-help :where(label, a){
 .form-wrapper a:hover{
     text-decoration: underline;
 }
+.form-wrapper .new{
+    /* margin-top: 10px; */
+}
+small{
+    display: block;
+    margin-top: 0;
+}
 
 @media (max-width:740px){
     body::before{
@@ -171,6 +179,7 @@ form .form-help :where(label, a){
     .form-wrapper{
         top: 50%;
         width: 100%;
+        margin-top: 70px;
     }
     .form-wrapper form{
         margin: 25px 0 40px;
